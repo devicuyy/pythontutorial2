@@ -8,6 +8,5 @@ x2 = input ("Enter X2: ")
 sum = int(x1) + int (x2)
 
 # 3. Output
-
  
 print (f"Sum:{sum}") 
