@@ -1,0 +1,17 @@
+import pandas as pd 
+
+# 1. input
+raw_data = pd.read_csv("Menu.csv")
+print(raw_data)
+print(raw_data.info())
+
+#2. Process
+Total = raw_data["Price"].sum()
+
+#3. Output 
+print(f"Total: {Total}")
+
+print (len(raw_data.index))
+raw_data.loc[len(raw_data.index)] = ["Total",Total]
+
+raw_data.to_csv
