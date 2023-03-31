@@ -12,7 +12,10 @@ print(raw_data)
 print(raw_data.info())
 
 # 2. Process
+itemAmount= len(raw_data)
 raw_data.sort_values (by=["Menu"], inplace=True)
 
+
 # 3. Output
+print(f'Count: {itemAmount}')
 print(raw_data)
