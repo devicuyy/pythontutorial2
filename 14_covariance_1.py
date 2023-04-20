@@ -27,4 +27,4 @@ answer = my_covariance(input_x, input_y)
 answer = round(answer, 2)
 
 # 3. Output
-print(f'Answer: {answer}')
+print(f'Covariance: {answer}')
